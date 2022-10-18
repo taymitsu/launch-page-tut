@@ -2,6 +2,9 @@ body {
  
 }
 
+.lead {
+  color:#4c191b;
+}
 .navbar {
   padding: 1rem;
   background-color: lavenderblush;
@@ -9,4 +12,28 @@ body {
 
 .bg-secondary p-5 {
   color: #f580d0;
+}
+
+.hero-background-img{
+  background-image: url("monsty-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("file-name.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
 }
