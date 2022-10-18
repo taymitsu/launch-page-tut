@@ -1,0 +1,12 @@
+body {
+ 
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: lavenderblush;
+}
+
+.bg-secondary p-5 {
+  color: #f580d0;
+}
